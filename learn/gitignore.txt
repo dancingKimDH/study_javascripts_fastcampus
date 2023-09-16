@@ -1,2 +1,4 @@
 1. gitignore .file/ + change line
 2. git status
+3. git remote add origin url
+    git push origin master : push files in already existing git repository
