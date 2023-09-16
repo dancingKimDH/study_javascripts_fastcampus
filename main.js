@@ -1,4 +1,3 @@
 import _ from 'lodash';
+console.log(_.camelCase('Hello World'));
 
-console.log('Hello World!');
-console.log(_.camelCase('Hello World'))
