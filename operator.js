@@ -17,7 +17,7 @@ const c = 1;
 // 일치연산자: ===
 console.log(a === b);
 
-function isEqua(x, y) {
+function isEqual(x, y) {
     return x === y;
 }
 
@@ -44,3 +44,15 @@ if (g) {
 }
 
 console.log(g ? '참' : '거짓') // 참: 물음표와 콜론으로 비교
+
+
+// 5. Type Conversion 동등연산자 : 형 변환 후 비교 (==), 되도록 쓰지 말 것
+
+const h = 1
+const i = '1'
+
+console.log(h == i) // true
+
+// Truthy(참 같은 값): true, {}, 1, 'false', -12
+// Falsy : false, '', null, undefined, 0, -0, NaN
+// 1 + undefined = NaN (Not a Number: 숫자데이터, 되도록 없게)
