@@ -33,3 +33,14 @@ const f = true
 console.log('&&: ', d && e && f); // false : 세 개 모두가 true여야 true
 console.log('||: ', d || e || f); // true : 어느 것 하나가 true이면 true
 console.log('!: ', !d); // false : not
+
+//  4. Ternary Operator (삼항연산자)
+
+const g = 1 < 2; // 참
+if (g) {
+    console.log('참')
+} else {
+    console.log('거짓')
+}
+
+console.log(g ? '참' : '거짓') // 참: 물음표와 콜론으로 비교
