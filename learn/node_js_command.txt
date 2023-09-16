@@ -1,0 +1,24 @@
+1. NVM
+- nvm --help
+- PS C:\Develops\study_nodejs> nvm ls
+
+  * 18.17.1 (Currently using 64-bit executable)
+
+- nvm install (version number)
+- nvm uninstall (version number)
+- PS C:\Develops\study_nodejs> nvm --version
+1.1.11
+- PS C:\Develops\study_nodejs> nvm use 18.17.1
+Now using node v18.17.1 (64-bit)
+- PS C:\Develops\study_nodejs> node --version 
+v18.17.1
+
+2. NPM 
+- npm init -y = > create a npm project
+- npm install parcel-bundler -D => how to install a package/module
+- npm install lodash   => without -D : not devdependencies but just --
+- npm install / npm i => install all the npms that are registered
+- "dev" : "parcel index.html" : add action on package.json
+    - npm run dev : commit
+- npm install lodash@4.17.20
+- npm update lodash
