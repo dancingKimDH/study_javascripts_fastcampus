@@ -1,4 +1,4 @@
-import random from './getRandom'
+import random from '../getRandom'
 
 const a = random();
 
