@@ -1,0 +1,8 @@
+{
+    "String": "HEY",
+    "Number": 123,
+    "Boolean": true,
+    "Null": null,
+    "Object": {},
+    "Array": []
+}
